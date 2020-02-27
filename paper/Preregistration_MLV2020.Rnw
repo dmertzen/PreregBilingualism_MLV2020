@@ -172,16 +172,6 @@ opts_chunk$set(dev='postscript')
 opts_chunk$set(echo = TRUE)
 @
 
-<<loadfunctions, include=TRUE, echo=FALSE, warning=FALSE, error=TRUE, message=TRUE>>=
-source("../R/createStanDat.R")
-source("../R/createStanDatAcc.R")
-source("../R/magnifytext.R")
-source("../R/multiplot.R")
-source("../R/plotresults.R")
-source("../R/plotpredictions.R")
-source("../R/stan_results.R")
-@
-
 
 %\doublespacing
 \clearpage
@@ -534,16 +524,6 @@ resFPRT<-summary(mFPRT)$coefficients[8,]
 
 mFPR<-glmer(FPR~ 1+Dep+Gram+DepxGram+Int_gram+Int_ungram+DepxInt_gram+DepxInt_ungram+ (1+DepxInt_ungram ||subj)+(1+DepxInt_ungram ||item),crit,family=binomial())
 resFPR<-summary(mFPR)$coefficients[8,1:3]
-
-## Stan analysis
-#crit_fpr <- createStanDat(d=crit, form=as.formula("~1+Dep+Gram+DepxGram+Int_gram+Int_ungram+DepxInt_gram+DepxInt_ungram"), dv=crit$FPR)
-
-# sample from posterior distribution.
-#M1_fpr <- stan(file = "../stan/logitMaximalM1.stan", 
-#data = crit_fpr,
-#iter = 2000, 
-#chains = 4,
-#control = list(adapt_delta=0.99))
 
 
 
