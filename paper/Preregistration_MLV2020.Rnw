@@ -131,7 +131,7 @@
 
 \threeaffiliations{Department of Linguistics, University of Potsdam, Potsdam, Germany}{Institute for Romance Languages and Literatures, Goethe University Frankfurt, Frankfurt, Germany}{Department of Linguistics, University of Potsdam, Potsdam, Germany}
 
-\authornote{Correspondence: mertzen@uni-potsdam.de. All data and code are available from \url{xxx}.}
+\authornote{Correspondence: mertzen@uni-potsdam.de. All data and code are available from \url{https://osf.io/5ab7d/}.}
 \note{\today}
 
 \journal{Submitted to Bilingualism: Language and Cognition} 
