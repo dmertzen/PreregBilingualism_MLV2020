@@ -566,7 +566,7 @@ We suggest that the hypothesis-driven research process should standardly include
 
 \section{Acknowledgements}
 
-This research was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 317633480 – SFB 1287, Project B03 (PIs: Shravan Vasishth and Ralf Engbert).
+This research was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – project number 317633480 – SFB 1287, Projects B03 and Q (PIs: Shravan Vasishth and Ralf Engbert).
 
 
 \printbibliography
